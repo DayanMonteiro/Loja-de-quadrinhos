@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    flex-direction: row;
+}
+.ofertas {
+    width: 300px;
+}
