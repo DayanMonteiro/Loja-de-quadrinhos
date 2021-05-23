@@ -3,18 +3,27 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
+    background-image: url("../../../assets/img/fundo.png"); 
+    background-size: cover; 
+    margin-top: 10px;
+
   }
   
   .divisor {
     background: #2d3436;
     width: 100%;
     height: 55px;
+    margin-top:  10px;
   }
   
   .row {
     flex-direction: row;
   }
   
+  li {
+      padding: 10px;
+  
+  }
   h1 {
     text-align: center;
     color: #d63031;
@@ -40,4 +49,12 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   column-gap: 20px;
+}
+
+svg {
+ margin-right: 30px;
+}
+
+.btn {
+    margin: 10px;
 }

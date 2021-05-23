@@ -10,6 +10,8 @@ import { OfertasListaComponent } from './components/ofertas/ofertas-lista/oferta
 import { FooterComponent } from './components/template/footer/footer.component';
 import { HeroisService } from './services/herois.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ModalDetalhesComponent } from './components/modal-detalhes/modal-detalhes.component';
+import { routing } from './app.routing';
 
 
 @NgModule({
@@ -19,12 +21,15 @@ import { HttpClientModule } from '@angular/common/http';
     NavbarComponent,
     SectionCardComponent,
     OfertasListaComponent,
-    FooterComponent
+    FooterComponent,
+    ModalDetalhesComponent,
+
   ],
   imports: [
     BrowserModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    routing
   
   ],
   providers: [ HeroisService ],

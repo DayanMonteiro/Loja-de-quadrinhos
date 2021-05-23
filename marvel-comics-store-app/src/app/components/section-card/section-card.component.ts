@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HeroisService } from 'src/app/services/herois.service';
 
+
 @Component({
   selector: 'app-section-card',
   templateUrl: './section-card.component.html',
