@@ -1,17 +1,13 @@
 <section class="container">
-        <h1 class="divisor">Catálogo Geek</h1>
-    <div class="row"> 
-        <ul>
-            <li *ngFor="let c of herois" class="tamanho">
-                <h1>
-                    {{c.name}}
-                </h1>
-               <p>
-                   {{c.description}} 
-               </p>
-                <img [src]="c.thumbnail.path + '/portrait_xlarge.jpg'" 
-                />
-            </li>
-        </ul>
+    <h1 class="divisor">Catálogo Geek</h1>
+  
+    <div class="container__heroes">
+      <ul *ngFor="let c of herois">
+          <li>
+            <h3> {{c.name}} </h3>
+            <p> {{c.description}} </p>
+            <img [src]="c.thumbnail.path + '/portrait_xlarge.jpg'" />
+          </li>
+      </ul>
     </div>
-</section>
+  </section>

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { isInterfaceDeclaration } from 'typescript';
+// import { isInterfaceDeclaration } from 'typescript';
 
 /* foi preciso declarar essas duas interfaces para construir o retorno do get da request */
 interface Data {
