@@ -1,5 +1,15 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { isInterfaceDeclaration } from 'typescript';
+
+/* foi preciso declarar essas duas interfaces para construir o retorno do get da request */
+interface Data {
+  results: Array<any>
+}
+
+interface RequestResponse {
+  data: Data
+}
 
 @Injectable({
   providedIn: 'root'
@@ -11,6 +21,6 @@ export class HeroisService {
   constructor(private http: HttpClient) { }
 
   listar() {
-    return this.http.get<any[]>(`${this.marvelUrl}`)
+    return this.http.get<RequestResponse>(`${this.marvelUrl}`)
   }
 }

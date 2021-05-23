@@ -16,6 +16,6 @@ export class SectionCardComponent implements OnInit {
     this.listar();
   }
   listar() {
-    this.heroisService.listar().subscribe(dados => this.herois = dados);
+    this.heroisService.listar().subscribe(dados => this.herois = dados.data.results);
   }
 }
