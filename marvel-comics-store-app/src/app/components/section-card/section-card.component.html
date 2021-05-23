@@ -1,11 +1,13 @@
 <section class="container">
-        <h1>Catálogo Geek</h1>
+        <h1 class="divisor">Catálogo Geek</h1>
     <div class="row"> 
-            <div class="ofertas">
-                <img src="" alt="">
-                <h3>CAPTAIN AMERICA</h3>
-                <p>When Steve Rogers asked Air Force Veteran Sam Wilson for help, Wilson immediately agreed. He donned the flight suit he’d used in combat to become the Falcon, setting him on a path towards becoming an Avenger and eventually Captain America.</p>
-            </div>
+        <ul>
+            <li *ngFor="let c of herois">
+                {{JSON.stringify(c);}}
+            </li>
+        </ul>
+
+            <!-- 
             <div class="ofertas">
                 <img src="" alt="">
                 <h3>LOKI</h3>
@@ -84,5 +86,6 @@
                 <h3>U.S.AGENT</h3>
                 <p>Inspired by his military family members, John F. Walker becomes a proud patriot who wants nothing more than to be a hero. When Power Broker offers him enhanced strength, he takes it and becomes the heroic, albeit smug, U.S.Agent!</p>
             </div>
+            -->
     </div>
 </section>

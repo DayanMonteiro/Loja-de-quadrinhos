@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { HeroisService } from 'src/app/herois.service';
 
 @Component({
   selector: 'app-section-card',
@@ -8,13 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionCardComponent implements OnInit {
 
+  herois: Array<any> = [];
 
-  constructor() {
+  constructor(private heroisService: HeroisService ) { }
 
-   }
-
-  ngOnInit(): void {
-
+  ngOnInit() { 
+    this.listar();
   }
-
+  listar() {
+    this.heroisService.listar().subscribe(dados => this.herois = dados);
+  }
 }

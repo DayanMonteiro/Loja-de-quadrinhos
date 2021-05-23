@@ -8,6 +8,9 @@ import { NavbarComponent } from './components/template/navbar/navbar.component';
 import { SectionCardComponent } from './components/section-card/section-card.component';
 import { OfertasListaComponent } from './components/ofertas/ofertas-lista/ofertas-lista.component';
 import { FooterComponent } from './components/template/footer/footer.component';
+import { HeroisService } from './herois.service';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 
@@ -23,9 +26,10 @@ import { FooterComponent } from './components/template/footer/footer.component';
   imports: [
     BrowserModule,
     NgbModule,
+    HttpClientModule
   
   ],
-  providers: [],
+  providers: [ HeroisService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

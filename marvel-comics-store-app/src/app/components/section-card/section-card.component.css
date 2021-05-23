@@ -5,8 +5,16 @@
     width: 1200px;
 }
 
+
 h1 {
     text-align: center;
+    color: #d63031;
+}
+
+.divisor {
+    background: #2d3436;
+    width: 100%;
+    height: 55px;
 }
 
 .row {
