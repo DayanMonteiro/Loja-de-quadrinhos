@@ -86,13 +86,8 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-🎁 Expressões de gratidão
+🎁 Conte a outras pessoas sobre este projeto 📢
 
-Conte a outras pessoas sobre este projeto 📢
+Convide-me pra bater um bapo além de sermos irmãos(as) de código podemos falar sobre :musical_note: :studio_microphone: :guitar: :film_strip:
 
-Convide-me pra bater um bapo atraves dos meus contatos em meu perfil 
-além de sermos irmãos(as) de código podemos falar sobre :musical_note: :studio_microphone: :guitar: :film_strip:
-
-Obrigado publicamente 🤓.
-
-⌨️ com ❤️ por Dayan Monteiro 😊
+Obrigado 🤓.⌨️ com ❤️ por Dayan Monteiro 😊
