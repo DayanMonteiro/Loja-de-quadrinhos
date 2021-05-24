@@ -6,7 +6,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { NavbarComponent } from './components/template/navbar/navbar.component';
 import { SectionCardComponent } from './components/section-card/section-card.component';
-import { OfertasListaComponent } from './components/ofertas/ofertas-lista/ofertas-lista.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { HeroisService } from './services/herois/herois.service';
 import { HttpClientModule } from '@angular/common/http';
@@ -20,7 +19,6 @@ import { InterceptorModule } from './interceptor/interceptor.module';
     CarouselComponent,
     NavbarComponent,
     SectionCardComponent,
-    OfertasListaComponent,
     FooterComponent
   ],
   
