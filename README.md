@@ -11,7 +11,7 @@ A aplicação consome dados realizando requisições a API da Marvel.
 Ao criar um repositório no GitHub, ele passa a existir como um repositório remoto. É possível clonar o repositório para criar uma cópia local no seu computador para fins de estudos ou contribuições nesse repositório, toda ajuda é bem-vinda!
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-#####Clonar um repositório usando a linha de comando
+##### Clonar um repositório usando a linha de comando
 
 No GitHub, navegue até a página principal do repositório.
 
