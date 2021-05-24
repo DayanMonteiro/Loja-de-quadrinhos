@@ -75,8 +75,12 @@ Angular e Bootstrap - Os frameworks usados
 Este projeto está sob a licença (sua licença) - veja o arquivo LICENSE.md para detalhes.
 
 🎁 Expressões de gratidão
+
 Conte a outras pessoas sobre este projeto 📢
+
 Convide-me pra bater um bapo atraves dos meus contatos em meu perfil 
 além de sermos irmãos(as) de código podemos falar sobre :musical_note: :studio_microphone: :guitar: :film_strip:
+
 Obrigado publicamente 🤓.
+
 ⌨️ com ❤️ por Dayan Monteiro 😊
