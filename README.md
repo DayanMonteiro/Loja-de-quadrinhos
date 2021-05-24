@@ -1,12 +1,12 @@
 # Quadrinhos Marvel
 
-##💻 Sobre o projeto
+## 💻 Sobre o projeto
 
 Este repositório ainda se encontra em desenvolvimento, e o mesmo trata-se de uma loja de quadrinhos da Marvel desenvolvido com Angular & Bootstrap.
 A aplicação consome dados realizando requisições a API da Marvel.
 
 
-####🚀 Começando
+#### 🚀 Começando
 
 Ao criar um repositório no GitHub, ele passa a existir como um repositório remoto. É possível clonar o repositório para criar uma cópia local no seu computador para fins de estudos ou contribuições nesse repositório, toda ajuda é bem-vinda!
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
@@ -36,7 +36,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 
-#### 📋 Pré-requisitos
+####  📋 Pré-requisitos
 De que coisas você precisa para instalar o software e como instalá-lo?
 
 Um editor de código eu recomento o Visual Studio Code desenvolvido pela Microsoft para Windows, Linux e macOS.
@@ -59,11 +59,11 @@ Abra o terminal do seu sistema operacional e digitar a instrução:
 npm install bootstrap
 
 
-###📦 Desenvolvimento
+### 📦 Desenvolvimento
 
 
 
-####🛠️ Construído com
+#### 🛠️ Construído com
 
 Angular e Bootstrap - Os frameworks usados
 
