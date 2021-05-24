@@ -11,6 +11,7 @@ import { HeroisService } from './services/herois/herois.service';
 import { HttpClientModule } from '@angular/common/http';
 import { routing } from './app.routing';
 import { InterceptorModule } from './interceptor/interceptor.module';
+import { OfertasListaComponent } from './components/ofertas/ofertas-lista/ofertas-lista.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { InterceptorModule } from './interceptor/interceptor.module';
     CarouselComponent,
     NavbarComponent,
     SectionCardComponent,
+    OfertasListaComponent,
     FooterComponent
   ],
   
