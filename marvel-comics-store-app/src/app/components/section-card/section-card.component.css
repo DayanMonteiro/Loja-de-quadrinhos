@@ -87,3 +87,15 @@ input {
   justify-content: space-between;
   margin: 25px;
 }
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body img {
+  width: 30%;
+  align-items: center;
+  align-self: center;
+  padding-bottom: 5px;
+}
