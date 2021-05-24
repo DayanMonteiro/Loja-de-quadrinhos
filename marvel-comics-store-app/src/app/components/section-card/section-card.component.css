@@ -19,8 +19,8 @@
   }
   
   li {
-      padding: 10px;
-  
+    padding: 10px;
+
   }
   h1 {
     text-align: center;
@@ -55,4 +55,17 @@ margin-right: 3px;
 
 .btn {
     margin: 10px;
+}
+
+input {
+  margin: 3px;
+}
+
+.checkout-title {
+  color: #2d3436;
+}
+.botoes-de__compra {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
 }

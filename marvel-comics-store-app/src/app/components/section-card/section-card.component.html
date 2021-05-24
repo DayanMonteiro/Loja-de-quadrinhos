@@ -1,3 +1,66 @@
+<!--Modal de detalhes-->
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">{{ heroi.titulo }}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <img [src]="heroi.imagem + '/portrait_xlarge.jpg'" alt="">
+    <p>{{ heroi.descricao }}</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="c('Save click')">Comprar</button>
+  </div>
+</ng-template>
+
+<!--Modal de compras-->
+<ng-template #compras let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h2 class="modal-title" id="modal-basic-title">Aumente sua coleção!</h2>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <!--Form -->
+  <div class="modal-body">
+    <form >
+      <div>
+        <h1 class="checkout-title">
+          Preço
+          <span>R$00,00</span>
+        </h1>
+      </div>
+      <p>
+        <input type="text" class="checkout-input checkout-name" placeholder="Seu nome">
+        <input type="text" class="checkout-input checkout-exp" placeholder="MM">
+        <input type="text" class="checkout-input checkout-exp" placeholder="YY">
+      </p>
+      <p>
+        <input type="text" class="checkout-input checkout-card" placeholder="1111 1111 1111 1111">
+        <input type="text" class="checkout-input checkout-cvc" placeholder="CVC">
+      </p>
+      <p>
+        <input type="submit" value="Enviar" class="checkout-btn">
+      </p>
+    </form>
+          Digite seus dados para finalizar compra!
+  </div>
+  <!-- 
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="compras('Save click')">Save</button>
+  </div>
+  -->
+  <div class="botoes-de__compra">
+    <button type="button" class="btn btn-dark">Adicionaro ao carrinho</button>
+    <button type="button" class="btn btn-warning">Inserir cupom de desconto</button>
+  </div>
+</ng-template>
+
+
+
+<!--Catálogo-->
 <section class="container">
     <h1 class="divisor">Catálogo Geek</h1>
   
@@ -5,17 +68,20 @@
       <ul *ngFor="let c of herois">
           <li>
             <h3> {{c.title}} </h3>
-           <!--  <p> {{c.description}} </p> -->
+            <!--  <p> {{c.description}} </p> -->
             <img [src]="c.thumbnail.path + '/portrait_xlarge.jpg'" />
             <div>
-
-              <button type="button" class="btn btn-secondary" >
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
-                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-                </svg>Mais...
-              </button>
-              <button type="button" class="btn btn-warning">Comprar</button>
-               
+              <button 
+                type="button" 
+                class="btn btn-warning" 
+                (click)="open(content, c)"
+                >Detalhes
+              </button>  
+              <button 
+                type="button" 
+                class="btn btn-dark"
+                (click)="open(compras, c)"
+              >Comprar</button>            
             </div>
           </li>
       </ul>

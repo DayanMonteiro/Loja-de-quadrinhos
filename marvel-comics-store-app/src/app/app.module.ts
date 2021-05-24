@@ -11,7 +11,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { HeroisService } from './services/herois/herois.service';
 import { HttpClientModule } from '@angular/common/http';
 import { routing } from './app.routing';
-import { ModalModule } from './components/modal/modal.module';
+import { InterceptorModule } from './interceptor/interceptor.module';
 
 
 @NgModule({
@@ -21,16 +21,15 @@ import { ModalModule } from './components/modal/modal.module';
     NavbarComponent,
     SectionCardComponent,
     OfertasListaComponent,
-    FooterComponent,
-
+    FooterComponent
   ],
+  
   imports: [
     BrowserModule,
     NgbModule,
     HttpClientModule,
     routing,
-    ModalModule
-  
+    InterceptorModule
   ],
   providers: [ HeroisService ],
   bootstrap: [AppComponent],
