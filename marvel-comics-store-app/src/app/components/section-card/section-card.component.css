@@ -20,8 +20,15 @@
   }
   
   li {
+    display: flex; 
     padding: 10px;
+    flex-direction: column;
 
+  }
+
+  .botoes{
+    width: 100%;
+    display: flex;
   }
   h1 {
     text-align: center;
@@ -43,6 +50,16 @@
     width: 100%;
   }
   */
+
+  .price {
+    display: flex;
+    margin-top: 5px;
+    background-color: #b2bec3;
+    width: 80px;
+    align-items: center ;
+    align-self: center;
+   
+  }
 
   .container__heroes {
   display: grid;

@@ -15,6 +15,7 @@ export class SectionCardComponent implements OnInit {
     titulo: '',
     descricao: '',
     imagem: '',
+    preco: '',
   };
   constructor(
     private heroisService: HeroisService,
@@ -40,6 +41,7 @@ export class SectionCardComponent implements OnInit {
     this.heroi.titulo = obj.title;
     this.heroi.descricao = obj.description;
     this.heroi.imagem = obj.thumbnail.path;
+    this.heroi.preco = obj.prices[0].price
   }
 
   openCompras(compras: any, obj: any) {
@@ -47,7 +49,7 @@ export class SectionCardComponent implements OnInit {
     this.heroi.titulo = obj.title;
     this.heroi.descricao = obj.description;
     this.heroi.imagem = obj.thumbnail.path;
+    this.heroi.preco = obj.prices[0].price
   }
-
 
 }
